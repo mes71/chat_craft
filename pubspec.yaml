@@ -57,6 +57,8 @@ dependencies:
   firebase_auth: ^4.10.1
   cloud_firestore: ^4.9.3
   firebase_storage: ^11.2.8
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.7
 
 
 
@@ -71,29 +73,9 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/
+    - assets/music/
+    - assets/icon/
     - assets/images/
-    - assets/icons/
-    - assets/Sound_Horizon.mp3
-    - assets/audio_mixing/Agora.io-Interactions.mp3
-    - assets/agora-logo.png
-    - assets/dang.mp3
-    - assets/ding.mp3
-    - assets/gif.gif
-    - assets/jpg.jpg
 
-  fonts:
-    - family: Avenir
-      fonts:
-        - asset: assets/fonts/Avenir-Book.ttf
-          weight: 400 # normal
-    - family: Montserrat
-      fonts:
-        - asset: assets/fonts/Montserrat-Medium.ttf
-          weight: 500
-        - asset: assets/fonts/Montserrat-SemiBold.ttf
-          weight: 600
-    - family: Iconfont
-      fonts:
-        - asset: assets/fonts/iconfont.ttf
+
 
